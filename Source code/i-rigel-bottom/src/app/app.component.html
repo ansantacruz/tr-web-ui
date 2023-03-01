@@ -1,0 +1,39 @@
+<ion-app>
+  <ion-tabs>
+    <ion-tab-bar id="shoe-tab-bar" slot="bottom" *ngIf="visTab">
+      <!-- tab buttons to navigate to specified page(page links are avaliable in tab module file) -->
+      <ion-tab-button tab="home">
+        <ion-icon src="assets/icon/home.svg"></ion-icon>
+      </ion-tab-button>
+      <ion-tab-button tab="wishlist">
+        <ion-icon src="assets/icon/heart.svg"></ion-icon>
+      </ion-tab-button>
+      <ion-tab-button tab="categories">
+        <ion-icon src="assets/icon/list.svg"></ion-icon>
+      </ion-tab-button>
+      <ion-tab-button tab="news">
+        <ion-icon src="assets/icon/newspaper.svg"></ion-icon>
+      </ion-tab-button>
+      <ion-tab-button tab="my-account">
+        <ion-icon src="assets/icon/profile.svg"></ion-icon>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+</ion-app>
+
+<!-- for side menu -->
+<!-- <ion-app>
+  <ion-split-pane contentId="menu-content">
+    <ion-menu type="push" contentId="menu-content">
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>Menu</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+          hannan
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet id="menu-content"></ion-router-outlet>
+  </ion-split-pane>
+</ion-app> -->

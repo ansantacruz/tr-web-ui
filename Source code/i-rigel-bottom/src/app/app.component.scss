@@ -1,0 +1,12 @@
+@import "../theme/font.scss";
+ion-tabs {
+  background: #f3edea;
+  ion-tab-bar {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    ion-tab-button {
+      --color-selected: #582f00;
+      --color: #707070;
+    }
+  }
+}

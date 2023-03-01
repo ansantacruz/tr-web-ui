@@ -1,0 +1,7 @@
+{
+  "name": "iShoe",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
